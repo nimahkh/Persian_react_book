@@ -27,9 +27,13 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
+  direction:rtl;
+  text-align:right
 }
 body {
   line-height: 1;
+  direction:rtl;
+  text-align:right
 }
 ol, ul {
   list-style: none;
@@ -51,6 +55,8 @@ body {
   font-size: 13px;
   line-height: 1.5;
   color: #000;
+  direction:rtl;
+  text-align:right
 }
 
 a {
